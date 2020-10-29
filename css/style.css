@@ -1,0 +1,77 @@
+
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+@import url("components/calendar.css");
+
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  /*background-color: rgb(30 30 30)*/
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/leaves.jpg') no-repeat;
+  background-size: cover;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.title {
+  width: 420px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.title h1 {
+  color: white;
+  font-size: 50px;
+  margin: 0;
+  opacity: 100%;
+  text-align: center;
+}
+
+.footer {
+  margin: 25 auto 30;
+  width: 420px;
+  text-align: center;
+}
+
+#by {
+  color: white;
+  opacity: 60%;
+  font-size: 12px;
+  margin: 0;
+}
+
+#by-liam {
+  color: white;
+  opacity: 60%;
+  font-size: 12px;
+  margin: 0;
+  text-decoration: none;
+}
+
+#by-liam:hover {
+  opacity: 90%;
+}
+
+#usa {
+  opacity: 100%;
+  font-size: 12px;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+

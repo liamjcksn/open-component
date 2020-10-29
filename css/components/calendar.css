@@ -1,0 +1,110 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 10px;
+  grid-gap: 20px 25px;
+  z-index: 2;
+  position: relative;
+}
+
+.calendar-white {
+  background-color: rgb(20, 20, 20);
+  height: 350px;
+  width: 420px; /* was 500 */
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.timeline {
+  padding: 20px;
+}
+
+.timeline h2 {
+  padding: 0 0 5px 0;
+  margin: 0 0 10px 0;
+  font-size: 12px;
+  color: #1DB954;
+}
+
+.month {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  width: 70%;
+  margin-bottom: 0
+}
+
+.month-picker {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.month-picker > h2 {
+  margin: 0 0;
+}
+
+.days {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.days > h4 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  margin: 0 0;
+  font-size: 10px;
+  text-align: center;
+  color: #1DB954;
+}
+
+.grid-item {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.angled {
+  padding-top: 13px;
+  font-weight: 400;
+  color: #1DB954;
+  font-size: 15px;
+}
+
+.fulldate {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.grey {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.grid-item.circled {
+  color: black;
+  font-weight: bolder;
+}
+
+.date-area {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  left: 59%;
+  top: 35%;
+  z-index: 1;
+  background-color: #1DB954;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
